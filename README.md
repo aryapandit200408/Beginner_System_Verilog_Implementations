@@ -178,6 +178,7 @@ Output:
 
 Waveform:
 
-![image](https://github.com/user-attachments/assets/92ad9692-b9b6-433b-b945-eae441f3d16e)
+![image](https://github.com/user-attachments/assets/0a2e0806-02fb-4fd7-945c-d4c875e28fc6)
+
 
 
