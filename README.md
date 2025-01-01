@@ -20,7 +20,7 @@ endmodule
 I use a file based testbench here, so I declare a memory file, tf.mem
 
 tf.mem
-```verilog
+```
 0, 0, 0, 0
 0, 1, 0, 1
 1, 0, 0, 1
@@ -28,7 +28,7 @@ tf.mem
 ```
 
 tb.sv
-```verilog
+```sv
 `timescale 1ns / 1ps
 module tb;
     logic a, b, cout, sum, coutest, sumtest;
