@@ -5,7 +5,7 @@ This is a repository showcasing some of my beginner implementations using System
 ### Dataflow Modelling of an half adder
 
 top.sv
-'''
+```
 `timescale 1ns / 1ps
 module top( a, b, cout, sum);
     input logic a, b;
@@ -15,20 +15,20 @@ module top( a, b, cout, sum);
     assign cout = a & b;
     
 endmodule
-'''
+```
 
 I use a file based testbench here, so I declare a memory file, tf.mem
 
 tf.mem
-'''
+```
 0, 0, 0, 0
 0, 1, 0, 1
 1, 0, 0, 1
 1, 1, 1, 0
-'''
+```
 
 tb.sv
-'''
+```
 `timescale 1ns / 1ps
 module tb;
     logic a, b, cout, sum, coutest, sumtest;
@@ -66,7 +66,7 @@ module tb;
         end       
     end
 endmodule
-'''
+```
 
 Output:
 ![image](https://github.com/user-attachments/assets/0b6e2e12-9612-4036-89e6-a44999fbd831)
