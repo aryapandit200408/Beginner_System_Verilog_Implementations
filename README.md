@@ -69,10 +69,12 @@ endmodule
 ```
 
 Output:
+
 ![image](https://github.com/user-attachments/assets/0b6e2e12-9612-4036-89e6-a44999fbd831)
 
 
 Waveform:
+
 ![image](https://github.com/user-attachments/assets/bc611695-f3ba-45a9-9f4a-546c1b0aebe9)
 
 
