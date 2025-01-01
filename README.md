@@ -2,7 +2,7 @@
 
 This is a repository showcasing some of my beginner implementations using System Verilog for design and verification.
 
-### Dataﬂow modeling of half adder
+## Dataﬂow modeling of half adder
 
 top.sv
 ```sv
@@ -78,8 +78,9 @@ Waveform:
 
 ![image](https://github.com/user-attachments/assets/bc611695-f3ba-45a9-9f4a-546c1b0aebe9)
 
+<br><br><br>
 
-### Behavioral modeling of 2-to-4 decoder
+## Behavioral modeling of 2-to-4 decoder
 
 top.sv
 ```sv
