@@ -5,7 +5,7 @@ This is a repository showcasing some of my beginner implementations using System
 ### Dataflow Modelling of an half adder
 
 top.sv
-```verilog
+```systemverilog
 `timescale 1ns / 1ps
 module top( a, b, cout, sum);
     input logic a, b;
