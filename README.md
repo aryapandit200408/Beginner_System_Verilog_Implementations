@@ -5,7 +5,7 @@ This is a repository showcasing some of my beginner implementations using System
 ### Dataflow Modelling of an half adder
 
 top.sv
-```
+```verilog
 `timescale 1ns / 1ps
 module top( a, b, cout, sum);
     input logic a, b;
@@ -20,7 +20,7 @@ endmodule
 I use a file based testbench here, so I declare a memory file, tf.mem
 
 tf.mem
-```
+```verilog
 0, 0, 0, 0
 0, 1, 0, 1
 1, 0, 0, 1
@@ -28,7 +28,7 @@ tf.mem
 ```
 
 tb.sv
-```
+```verilog
 `timescale 1ns / 1ps
 module tb;
     logic a, b, cout, sum, coutest, sumtest;
